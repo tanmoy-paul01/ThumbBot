@@ -63,16 +63,21 @@ cd ThumbBot
 ```
 
 ### 2️⃣ Clone the Repository
+
 #Backend
+
 cd server
 npm install
 
 #Frontend
+
 cd client
 npm install
 
 ###3️⃣ Setup Environment Variables
+
 #Create a .env file inside server/ and add:
+
 MONGO_URI=your_mongodb_url
 SESSION_SECRET=your_secret_key
 
@@ -83,17 +88,22 @@ CLOUDINARY_API_SECRET=your_api_secret
 GEMINI_API_KEY=your_google_gemini_api_key
 
 ###4️⃣ Run the Project
+
 #Start Backend
+
 npm run server
 
 #Start Frontend
+
 npm start
 
 
-###🌟 Why ThumbBot?
+###🌟 Why ThumbBot
+
 ThumbBot combines AI-powered image generation with modern web technologies to simplify thumbnail creation. Whether you're a content creator, marketer, or student, ThumbBot helps you generate professional thumbnails quickly without design expertise.
 
 ###🚀 Future Improvements
+
 1.Drag-and-drop thumbnail editor
 2.Custom AI templates
 3.Download history & dashboard
@@ -101,6 +111,7 @@ ThumbBot combines AI-powered image generation with modern web technologies to si
 5.AI text overlay suggestions
 
 ###👨‍💻 Author
+
 #Tanmoy Paul
 
 #If you found this project useful, feel free to ⭐ the repository!
